@@ -10,12 +10,12 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Mark's blog
-tagline: Probably techy. Certainly useless
+tagline: Probably techy. Certainly useless.
 author : 
   name : Mark Finn
   email : mark@mfinn.net
   github : markfinn
-  twitter : username
+  twitter : mfinn
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
