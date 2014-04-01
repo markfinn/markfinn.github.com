@@ -14,16 +14,15 @@ I don't have the electronics done, but the results so far show some promise:
 
 (Annoyingly, I can't get the video tag to work on github, even though it works locally.  movie is [here]({{ BASE_PATH }}/images/TRIM_20140331_170021.mp4) for now)
 
+
+###The Light
 The original light was a little broken, but for $10, I can't complain.  Once I'm done, I might replace the circle of black plastic 
 since it's cracked, but I might just be able to glue and screw it to get it to keep the right shape.
 ![rr1]({{ BASE_PATH }}/images/IMG_20140330_135301.jpg.png "title")
 
-
-The light is a fairly servicable device.  The front swings open, and everything can be disassembled and repaired or replaced.  
-This one had a broken side window, so a bird had crawled in at some point.  I'll stick a circle of some cheap plastic in 
-there when I close it up to keep water and future burds out.
-The original light is a 10V bulb that is mounted at the focal point of a parabolic mirror.  
-The focus is even adjustable, which I will make use of.
+###Dissassembly
+The light is a fairly servicable device.  The front swings open, and everything can be disassembled and repaired or replaced. This one had a broken side window, so a bird had crawled in at some point.  I'll stick a circle of some cheap plastic in 
+there when I close it up to keep water and future birds out. The original light is a 10V bulb that is mounted at the focal point of a parabolic mirror.  The focus is even adjustable, which I will make use of.
 ![rr1]({{ BASE_PATH }}/images/IMG_20140330_135322.jpg.png "title")
 
 I was able to find an 8" clear glass lens to replace the red plastic original.  I got it on Amazon, and it's meant for 
@@ -36,7 +35,7 @@ At this stage I also removed the side windows for fixing, cleaned the mirror, an
 I decided to use a [BlinkM MaxM](http://thingm.com/products/blinkm-maxm/) as as simple way to get an RGB LED in there.  
 I haven't done the code yet for my final setup, and the BlinkM is just running its demo program at the moment.
 
-#print
+###The Mount
 The mount [on github](https://github.com/markfinn/rgb_railroad_rlight) fits in the original bulb socket holder, and allows 
 some focus control.  I made a conduit in the center for the wires, but as you can see in the following pictures, I forgot to 
 thread the wires through. I made the mount on my reprap, and it was the first thing that I've managed to print since last fall 
@@ -51,6 +50,7 @@ I figure I'd adjust it once I saw it in action, but it turned out to be close en
 ![rr1]({{ BASE_PATH }}/images/IMG_20140331_163135.jpg.png "title")
 
 
+###Troubles
 I had a few issues at at this stage.
 
 First, the BlinkM was dim. I found that the voltage was stuck at around 3.7v at the board top board.  It turned out that I was 
@@ -75,7 +75,7 @@ I was going for.  So far, I've improved this by tie-wrapping a translucent piece
 LED assembly with a bit of "poof" in the plastic where it passes in front of the LEDs.  This helps quite a bit.
 
 
-
+###Next
 This gave me what you see in the video at the top of the page.  Next Up:  software or controls.
 
 
