@@ -19,8 +19,8 @@ since it's cracked, but I might just be able to glue and screw it to get it to k
 ![rr1]({{ BASE_PATH }}/images/IMG_20140330_135301.jpg.png "title")
 
 
-The light is fairly servicable.  The fron swings open, and everything can be disassembled and repaired or replaced.  
-This one had a broken side lite, so a bird had crawled in at some point.  I'll stick a circle of some cheap plastic in 
+The light is a fairly servicable device.  The front swings open, and everything can be disassembled and repaired or replaced.  
+This one had a broken side window, so a bird had crawled in at some point.  I'll stick a circle of some cheap plastic in 
 there when I close it up to keep water and future burds out.
 The original light is a 10V bulb that is mounted at the focal point of a parabolic mirror.  
 The focus is even adjustable, which I will make use of.
@@ -30,7 +30,7 @@ I was able to find an 8" clear glass lens to replace the red plastic original.  
 an underwater pool light housing.  Other than the faint "do not light unless submerged" and the fact that it is clear 
 glass, it is pretty close to a copy of the original.
 
-At this stage I also removed the side lites for fixing, cleaned the mirror, and ran new wiring out the back.
+At this stage I also removed the side windows for fixing, cleaned the mirror, and ran new wiring out the back.
 ![rr1]({{ BASE_PATH }}/images/IMG_20140330_145457.jpg.png "title")
 
 I decided to use a [BlinkM MaxM](http://thingm.com/products/blinkm-maxm/) as as simple way to get an RGB LED in there.  
