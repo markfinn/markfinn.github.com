@@ -41,8 +41,19 @@ Here's the mount and LED board in place. I wasn't very careful about focus.
 ![rr1]({{ BASE_PATH }}/images/IMG_20140331_163135.jpg.png "title")
 
 
+I had a few issues at at this stage.
+
+First, the BlinkM was dim. I found that the voltage was stuck at around 3.7v at the board top board.  It turned out that I was using the barrel plug power input with the 5V 2A power supply I had bought for this project.  It turns out after reading the schematic that the barrel plug goes through a 7805 lin-reg before becoming VCC on the board.  Any variant on a 7805 is porbably not going to be a low-dropout regulator, and this was no exception.  I switched to applying power directly to the arduio VCC connector, and this were better.
+
+At the same time that I switched to the non regulated input, I added the longer wire ( 6 feet of 22 or 24 guage, I didn't really look) and found that the BlinkM wouldn't turn on, it would just flash a little.  I assumed that the LEDs switching on were causing enough voltage drop to reset the ATTiny. Since I had added Wire AND cut out any input capacitance at the same time, I don't really know which caused it, but either way, it was a problem now.
+My son had just found a 16V 33uF electrolytic cap on the floor, and he hadn't crushed it too badly when he "found" it, so I decided it was just the right size that I guess I needed.  Adding the cap directly to the BlinkM's input pins solved the problem.
 
 
+Lastly, I had an issue of getting good color blending.  The parabolic reflector in the signal body is meant to tale a point source of light, like a singal bulb with a small fillament, and turn that into a large ray out the fron lens.  replacing the single bulb with three LEDs that were sepoarated by nearly a centimeter center to center left me with three separate beams that didn't really mix well.  When the LEDs were all on, instead of getting a whilte light, I could see a psychadelic red-green-blue mosaic that really wasn't what I was going for.  So far, I've improved this by tie-wrapping a translucent piece of plastic (a chunk from a Radio Shack bag) over the LED assembly with a bit of "poof" in the plastic where it passes in front of the LEDs.  This helps quite a bit.
+
+
+
+Next Up:  software or controls.
 
 
 
