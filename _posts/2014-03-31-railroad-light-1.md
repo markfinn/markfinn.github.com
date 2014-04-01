@@ -68,11 +68,12 @@ was just the right size that I guess I needed.  Adding the cap directly to the B
 
 
 Lastly, I had an issue of getting good color blending.  The parabolic reflector in the signal body is meant to tale a point source of 
-light, like a singal bulb with a small fillament, and turn that into a large ray out the fron lens.  replacing the single bulb with 
+light, like a single bulb with a small fillament, and turn that into a large ray out the front lens.  Replacing the single bulb with 
 three LEDs that were sepoarated by nearly a centimeter center to center left me with three separate beams that didn't really mix well. 
  When the LEDs were all on, instead of getting a whilte light, I could see a psychadelic red-green-blue mosaic that really wasn't what 
 I was going for.  So far, I've improved this by tie-wrapping a translucent piece of plastic (a chunk from a Radio Shack bag) over the 
-LED assembly with a bit of "poof" in the plastic where it passes in front of the LEDs.  This helps quite a bit.
+LED assembly with a bit of "poof" in the plastic where it passes in front of the LEDs.  This helps quite a bit, although it doesn't 
+ completely solve it.
 
 
 ###Next
@@ -82,5 +83,5 @@ This gave me what you see in the video at the top of the page.  Next Up:  softwa
 
 <video id="video_1" class="video-js vjs-default-skin" controls="" preload="auto" width="640" height="264">
 <source src="{{ BASE_PATH }}/images/TRIM_20140331_170021.mp4" type="video/mp4" /> 
-</video>
+</video >
  
