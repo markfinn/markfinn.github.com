@@ -16,7 +16,7 @@ I don't have the electronics done, but the results so far show some promise:
 </video>
 
 
-The original light was a little broken, but for $10, I can't complain.  One I'm done, I might replace the circle of black plastic 
+The original light was a little broken, but for $10, I can't complain.  Once I'm done, I might replace the circle of black plastic 
 since it's cracked, but I might just be able to glue and screw it to get it to keep the right shape.
 ![rr1]({{ BASE_PATH }}/images/IMG_20140330_135301.jpg.png "title")
 
