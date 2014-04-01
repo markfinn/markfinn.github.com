@@ -77,7 +77,9 @@ LED assembly with a bit of "poof" in the plastic where it passes in front of the
 
 
 ###Next
-This gave me what you see in the video at the top of the page.  Next Up:  software or controls.
+This gave me what you see in the video at the top of the page.  Next Up:  a wall mount, plus software and controls.  I'm thinking about
+ USB to the near by router for computer control, plus either an optical encoder or wireless remote for playing.  I'm considering those
+ two option since they are what I have the parts for on my desk right now.
 
 
 
