@@ -18,3 +18,14 @@ tags: []
 ![rr1]({{ BASE_PATH }}/images/IMG_20140331_163135.jpg "title")
 
 [movie]({{ BASE_PATH }}/images/TRIM_20140331_170021.mp4)
+
+
+<video id="video_1" class="video-js vjs-default-skin" controls="" preload="auto" width="640" height="264">
+ <source src="{{ BASE_PATH }}/images/TRIM_20140331_170021.mp4" type="video/mp4" /> 
+ 
+</video>
+
+
+
+
+
