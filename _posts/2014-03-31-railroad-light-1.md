@@ -34,7 +34,7 @@ At this stage I also removed the side windows for fixing, cleaned the mirror, an
 I decided to use a [BlinkM MaxM](http://thingm.com/products/blinkm-maxm/) as as simple way to get an RGB LED in there.  
 I haven't done the code yet for my final setup, and the BlinkM is just running its demo program at the moment.
 
-<a name="the%20mount"></a>
+<a name="The%20Mount"></a>
 ###The Mount
 The mount [on github](https://github.com/markfinn/rgb_railroad_rlight) fits in the original bulb socket holder, and allows 
 some focus control.  I made a conduit in the center for the wires, but as you can see in the following pictures, I forgot to 
